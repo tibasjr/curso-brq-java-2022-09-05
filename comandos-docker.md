@@ -97,3 +97,8 @@ Para sair do container, digite:         exit
     docker run --name hello-world -p 80:80 -p 8000:80  docker/getting-started
     docker exec -it hello-world /bin/sh
 ```
+docker rm hello-world
+    
+docker run --name hello-world -p 80:80 -p 8000:80 -v meu-volume:/meu-volume-container 
+
+docker/getting-started
